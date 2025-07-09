@@ -8,7 +8,7 @@ export const container = styled(SafeAreaView, {
 	backgroundColor: "$primario1",
 	pt: 4,
 	px: 6,
-	gap: 15,
+	gap: 10,
 });
 
 export const hstack = styled("View", {

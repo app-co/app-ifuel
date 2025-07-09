@@ -3,9 +3,9 @@ import { styled } from "@/styles";
 
 export const container = styled(SafeAreaView, {
 	flex: 1,
-	backgroundColor: "$primario1",
+	backgroundColor: "$focus2",
 	paddingTop: 20,
-	paddingHorizontal: 20,
+	px: 7,
 });
 
 export const hstack = styled("View", {

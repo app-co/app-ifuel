@@ -14,7 +14,11 @@ export function StackRoutes() {
 				header: (h) => <Header {...h} />,
 			}}
 		>
-			<S.Screen name="Login" component={Login} />
+			<S.Screen
+				name="Login"
+				component={Login}
+				options={{ headerShown: false }}
+			/>
 			<S.Screen name="Cadastro" component={Cadastro} />
 			<S.Screen name="Home" component={Home} />
 		</S.Navigator>

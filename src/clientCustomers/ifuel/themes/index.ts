@@ -16,7 +16,7 @@ export const ifuel = createTheme({
 		primario3: "hsl(0, 0%, 50%)",
 		label1: "hsl(0, 0%, 100%)",
 		label3: "hsl(0, 0%, 10%)",
-		label2: "hsl(0, 0%, 50%)",
+		label2: "hsl(0, 0%, 38%)",
 		border: "hsl(0, 0%, 85%)",
 	},
 });

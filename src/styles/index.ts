@@ -128,7 +128,7 @@ export const { theme, useTheme, styled, createTheme, ThemeProvider } =
 			}),
 
 			title: () => ({
-				fontSize: width * 0.065,
+				fontSize: width * 0.062,
 				fontFamily: "bold",
 			}),
 
@@ -138,7 +138,7 @@ export const { theme, useTheme, styled, createTheme, ThemeProvider } =
 			}),
 
 			text: () => ({
-				fontSize: width * 0.035,
+				fontSize: width * 0.033,
 				fontFamily: "regular",
 			}),
 		},

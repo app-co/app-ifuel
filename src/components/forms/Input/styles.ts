@@ -1,3 +1,4 @@
+import MaskInput from "react-native-mask-input";
 import { styled } from "@/styles";
 
 interface I {
@@ -23,7 +24,7 @@ export const InputContainer = styled("View", {
 
 	flexDirection: "row",
 	width: "100%",
-	h: 6,
+	h: 5,
 	px: 2,
 	borderWidth: 2,
 	borderColor: "$border",
@@ -88,7 +89,7 @@ export const noInput = styled("View", {
 	justifyContent: "center",
 });
 
-export const input = styled("TextInput", {
+export const input = styled(MaskInput, {
 	flex: 1,
 	fontFamily: "regular",
 	fontWeight: 400,

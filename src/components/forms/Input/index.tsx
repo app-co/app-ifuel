@@ -1,10 +1,10 @@
 import { Feather } from "@expo/vector-icons";
 import { Eye, EyeClosed } from "phosphor-react-native";
 import React from "react";
-import { Text, type TextInputProps } from "react-native";
+import { type MaskInputProps } from "react-native-mask-input";
 import * as S from "./styles";
 
-export interface TypeInput extends TextInputProps {
+export interface TypeInput extends MaskInputProps {
 	icon?: React.ComponentProps<typeof Feather>["name"];
 	iconCustom?: any;
 	pressable?: boolean;

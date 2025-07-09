@@ -17,7 +17,7 @@ export function Header(_props: any) {
 					<UserIcon weight="fill" color={colors.primario1} />
 					<S.text>Olá, {user?.nome ?? "Visitante"}</S.text>
 				</S.hstack>
-				<LogoSvg size={70} color={colors.primario1} />
+				<LogoSvg size={75} color={colors.primario1} />
 			</S.hstack>
 		</S.container>
 	);

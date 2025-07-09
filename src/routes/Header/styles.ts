@@ -3,8 +3,9 @@ import { styled } from "@/styles";
 
 export const container = styled(SafeAreaView, {
 	backgroundColor: "$focus2",
-	h: 8,
+	h: 10,
 	px: 6,
+	pt: 3,
 	justifyContent: "center",
 });
 
